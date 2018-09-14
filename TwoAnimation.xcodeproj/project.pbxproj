@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1929A98C214C187000F91844 /* TwoAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929A98B214C187000F91844 /* TwoAnimation.m */; };
+		1929A98D214C187000F91844 /* TwoAnimation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1929A98A214C187000F91844 /* TwoAnimation.h */; };
+		1929A999214C188800F91844 /* CALayer+RotatingAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929A994214C188800F91844 /* CALayer+RotatingAnimation.m */; };
+		1929A99A214C188800F91844 /* FlyingAngelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929A995214C188800F91844 /* FlyingAngelView.m */; };
+		1929A99B214C188800F91844 /* CALayer+anchorPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929A996214C188800F91844 /* CALayer+anchorPoint.m */; };
+		1929A99D214C189F00F91844 /* FlyingAngelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929A998214C188800F91844 /* FlyingAngelView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1929A99E214C18C200F91844 /* TwoAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929A98A214C187000F91844 /* TwoAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1929A9A1214C194600F91844 /* GQLizi8Button.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929A99F214C194600F91844 /* GQLizi8Button.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1929A9A2214C194600F91844 /* GQLizi8Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929A9A0214C194600F91844 /* GQLizi8Button.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1929A985214C187000F91844 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				1929A98D214C187000F91844 /* TwoAnimation.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1929A987214C187000F91844 /* libTwoAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTwoAnimation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1929A98A214C187000F91844 /* TwoAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoAnimation.h; sourceTree = "<group>"; };
+		1929A98B214C187000F91844 /* TwoAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoAnimation.m; sourceTree = "<group>"; };
+		1929A993214C188800F91844 /* CALayer+anchorPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+anchorPoint.h"; sourceTree = "<group>"; };
+		1929A994214C188800F91844 /* CALayer+RotatingAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+RotatingAnimation.m"; sourceTree = "<group>"; };
+		1929A995214C188800F91844 /* FlyingAngelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyingAngelView.m; sourceTree = "<group>"; };
+		1929A996214C188800F91844 /* CALayer+anchorPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+anchorPoint.m"; sourceTree = "<group>"; };
+		1929A997214C188800F91844 /* CALayer+RotatingAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+RotatingAnimation.h"; sourceTree = "<group>"; };
+		1929A998214C188800F91844 /* FlyingAngelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyingAngelView.h; sourceTree = "<group>"; };
+		1929A99F214C194600F91844 /* GQLizi8Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQLizi8Button.h; sourceTree = "<group>"; };
+		1929A9A0214C194600F91844 /* GQLizi8Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQLizi8Button.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1929A984214C187000F91844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1929A97E214C187000F91844 = {
+			isa = PBXGroup;
+			children = (
+				1929A989214C187000F91844 /* TwoAnimation */,
+				1929A988214C187000F91844 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1929A988214C187000F91844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1929A987214C187000F91844 /* libTwoAnimation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1929A989214C187000F91844 /* TwoAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				1929A99F214C194600F91844 /* GQLizi8Button.h */,
+				1929A9A0214C194600F91844 /* GQLizi8Button.m */,
+				1929A993214C188800F91844 /* CALayer+anchorPoint.h */,
+				1929A996214C188800F91844 /* CALayer+anchorPoint.m */,
+				1929A997214C188800F91844 /* CALayer+RotatingAnimation.h */,
+				1929A994214C188800F91844 /* CALayer+RotatingAnimation.m */,
+				1929A998214C188800F91844 /* FlyingAngelView.h */,
+				1929A995214C188800F91844 /* FlyingAngelView.m */,
+				1929A98A214C187000F91844 /* TwoAnimation.h */,
+				1929A98B214C187000F91844 /* TwoAnimation.m */,
+			);
+			path = TwoAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1929A99C214C189800F91844 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1929A9A1214C194600F91844 /* GQLizi8Button.h in Headers */,
+				1929A99E214C18C200F91844 /* TwoAnimation.h in Headers */,
+				1929A99D214C189F00F91844 /* FlyingAngelView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1929A986214C187000F91844 /* TwoAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1929A990214C187000F91844 /* Build configuration list for PBXNativeTarget "TwoAnimation" */;
+			buildPhases = (
+				1929A983214C187000F91844 /* Sources */,
+				1929A984214C187000F91844 /* Frameworks */,
+				1929A985214C187000F91844 /* CopyFiles */,
+				1929A99C214C189800F91844 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoAnimation;
+			productName = TwoAnimation;
+			productReference = 1929A987214C187000F91844 /* libTwoAnimation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1929A97F214C187000F91844 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ZHM.YU;
+				TargetAttributes = {
+					1929A986214C187000F91844 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 1929A982214C187000F91844 /* Build configuration list for PBXProject "TwoAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1929A97E214C187000F91844;
+			productRefGroup = 1929A988214C187000F91844 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1929A986214C187000F91844 /* TwoAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1929A983214C187000F91844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1929A999214C188800F91844 /* CALayer+RotatingAnimation.m in Sources */,
+				1929A99B214C188800F91844 /* CALayer+anchorPoint.m in Sources */,
+				1929A98C214C187000F91844 /* TwoAnimation.m in Sources */,
+				1929A99A214C188800F91844 /* FlyingAngelView.m in Sources */,
+				1929A9A2214C194600F91844 /* GQLizi8Button.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1929A98E214C187000F91844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1929A98F214C187000F91844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1929A991214C187000F91844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY5A2446M4;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1929A992214C187000F91844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY5A2446M4;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1929A982214C187000F91844 /* Build configuration list for PBXProject "TwoAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1929A98E214C187000F91844 /* Debug */,
+				1929A98F214C187000F91844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1929A990214C187000F91844 /* Build configuration list for PBXNativeTarget "TwoAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1929A991214C187000F91844 /* Debug */,
+				1929A992214C187000F91844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1929A97F214C187000F91844 /* Project object */;
+}
