@@ -6,7 +6,7 @@
 像使用runtime拦截响应链中的UIButton点击事件。
 
 可以实现按下按钮和抬起手时的按钮不同状态 
-==>如实现携程中的按钮字体变小，变暗（目前和之前不太一样。但原理相同。之前的版本是使按钮图片缩小一点的）
+==>如实现携程app中的按钮字体变小，变暗（目前和之前不太一样。但原理相同。之前的版本是使按钮图片缩小一点的）
 
 ![Image text](https://github.com/Y1991/TwoAnimation/blob/master/AnimationDemo/images/1.png)
 
